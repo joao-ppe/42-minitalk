@@ -26,7 +26,7 @@ $ ./client <PID> <message>
 ```
 
 ## Disclaimer:
-This project's source code adheres to the standards of 42 School and it's norms rigorous coding practices:
+This project's source code adheres to the standards of 42 School and its norms and rigorous coding practices:  
 ```
 - We refrain from using 'for,' 'do while,' 'switch,' 'case,' or 'goto' constructs.
 - Each function has no more than 25 lines of code. 
