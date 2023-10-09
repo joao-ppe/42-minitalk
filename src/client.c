@@ -23,7 +23,7 @@ void	send_string(int pid, int c)
 			kill(pid, SIGUSR1);
 		else
 			kill(pid, SIGUSR2);
-		usleep(700);
+		usleep(500);
 		bits++;
 	}
 }
