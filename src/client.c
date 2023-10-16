@@ -6,7 +6,7 @@
 /*   By: joao-ppe <joao-ppe@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/03 17:06:59 by joao-ppe          #+#    #+#             */
-/*   Updated: 2023/09/05 16:26:12 by joao-ppe         ###   ########.fr       */
+/*   Updated: 2023/10/16 13:30:34 by joao-ppe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ void	send_string(int pid, int c)
 			kill(pid, SIGUSR1);
 		else
 			kill(pid, SIGUSR2);
-		usleep(500);
+		usleep(200);
 		bits++;
 	}
 }
