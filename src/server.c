@@ -6,13 +6,13 @@
 /*   By: joao-ppe <joao-ppe@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/03 17:06:56 by joao-ppe          #+#    #+#             */
-/*   Updated: 2023/09/05 16:28:24 by joao-ppe         ###   ########.fr       */
+/*   Updated: 2024/01/17 12:45:20 by joao-ppe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../include/minitalk.h"
 
-void	signal_handler(int signal_value)
+static void	signal_handler(int signal_value)
 {
 	static int				bit;
 	static unsigned char	c;

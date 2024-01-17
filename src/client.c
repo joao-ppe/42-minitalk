@@ -6,13 +6,13 @@
 /*   By: joao-ppe <joao-ppe@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/03 17:06:59 by joao-ppe          #+#    #+#             */
-/*   Updated: 2023/10/16 13:30:34 by joao-ppe         ###   ########.fr       */
+/*   Updated: 2024/01/17 12:45:15 by joao-ppe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../include/minitalk.h"
 
-void	send_string(int pid, int c)
+static void	send_string(int pid, int c)
 {
 	int	bits;
 
